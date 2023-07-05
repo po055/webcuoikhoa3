@@ -3,20 +3,90 @@ body {
     padding: 0;
 }
 
+#header {
+    display: flex;
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    align-items: center;
+    /* position: absolute; */
+}
+
+.logo {
+    align-items: center;
+    display: flex;    
+}
+
+.logo img {
+    width: 123px;
+    height: 40px;
+}
+
+.text {
+    font-size: 1.5rem;
+    margin-left: 2em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.text-2 {
+    margin-top: 9px;
+    position: relative;
+    left: 10px;
+}
+
+.text-2 a {
+    text-decoration: none;
+}
+
+.container-2 {
+    background-color: #FFEBE0;
+}
+
+.container {
+    display: flex;
+    width: 72.2%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.text-10 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.text-11 img {
+    width: 173px;
+    height: 60px;
+}
+
+.text-12 {
+    width: 260px;
+    padding-top: 10px;
+}
+
+.text-12 h1{
+    font-weight: bold;
+    color: #EE4D2D;
+    margin: 0;
+}
+
 #app {
     position: relative;
     width: 400px;
-    height: 570px;
-    background: transparent;
+    height: 550px;
+    background-color: white;
     border: 2px solid rgba(225, 255, 255, .5);
-    border-radius: 20px;
+    border-radius: 7px;
     /* không dùng được */
     /* backdrop-filter: blur(10px); */
     box-shadow: 0 0 30px rgba(0, 0, 0, .5);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
 }
 
 .wrapper {

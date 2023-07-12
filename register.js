@@ -124,7 +124,14 @@ class Register {
             .then((userCredential) => {
                 firebase.auth().currentUser.updateProfile({displayName: userName})
                 firebase.auth().currentUser.sendEmailVerification()
+                window.location.href = "index.html"
             })
+            .catch((error) => {
+                var errorCode = error.code;
+                var errorMessage = error.message;
+                console.log("Error:", errorCode, errorMessage);
+                alert(errorMessage)
+              });
     }
 
     setError = (content) => {

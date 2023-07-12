@@ -64,17 +64,22 @@ body {
 .text-11 img {
     width: 373x;
     height: 360px;
-    
+    position: relative;
+    bottom: 90px;
 }
 
 .text-12 {
-    width: 260px;
-    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 170px;
 }
 
 .text-12 h1{
-    font-weight: bold;
+    width: 200px;
+    font-weight: 100;
     color: white;
+    font-size: 60px;
     margin: 0;
 }
 

@@ -11,7 +11,6 @@ body {
     align-items: center;
     /* position: absolute; */
 }
-
 .logo {
     align-items: center;
     display: flex;    
@@ -24,8 +23,9 @@ body {
 
 .text {
     font-size: 1.5rem;
-    margin-left: 2em;
+    margin-left: 10px;
     font-weight: 500;
+    width: 12%;
     display: flex;
     align-items: center;
     margin-top: 23px;
@@ -34,15 +34,18 @@ body {
 .text-2 {
     margin-top: 9px;
     position: relative;
-    left: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: end;
 }
 
 .text-2 a {
     text-decoration: none;
+    color: #EE4D2D;
 }
 
 .container-2 {
-    background-color: #FFEBE0;
+    background-color: #EE4D2D;
 }
 
 .container {
@@ -59,8 +62,9 @@ body {
 }
 
 .text-11 img {
-    width: 173px;
-    height: 60px;
+    width: 373x;
+    height: 360px;
+    
 }
 
 .text-12 {
@@ -70,7 +74,7 @@ body {
 
 .text-12 h1{
     font-weight: bold;
-    color: #EE4D2D;
+    color: white;
     margin: 0;
 }
 
@@ -87,6 +91,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    left: 26.5%;
 }
 
 .wrapper {

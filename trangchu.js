@@ -151,3 +151,135 @@ for (let item of products3.data) {
 
     document.getElementById("products3").appendChild(card3)
 }
+
+const products4 = {
+    data: [
+        {
+            image: "/image/image_hinh1.png",
+            title: "Thời Trang Nam",
+        },
+        {
+            image: "/image/image_hinh2.png",
+            title: "Điện Thoại & Phụ Kiện",
+        },
+        {
+            image: "/image/image_hinh3.png",
+            title: "Thiết Bị Điện Tử ",
+        },
+        {
+            image: "/image/image_hinh4.png",
+            title: "Máy Tính & Laptop",
+        },
+
+        {
+            image: "/image/image_hinh5.png",
+            title: "Máy Ảnh & Máy Quay Phim",
+        },
+        {
+            image: "/image/image_hinh6.png",
+            title: "Đồng Hồ",
+        },
+        {
+            image: "/image/image_hinh7.png",
+            title: "Giày Dép Nam",
+        },
+        {
+            image: "/image/image_hinh8.png",
+            title: "Thiết Bị Điện Gia Dụng",
+        },
+        {
+            image: "/image/image_hinh9.png",
+            title: "Thể thao & Du Lịch",
+        },
+        {
+            image: "/image/image_hinh10.png",
+            title: "Ô Tô & Xe Máy & Xe Đạp",
+        },
+        {
+            image: "/image/image_hinh11.png",
+            title: "Balo & Túi Ví Nam",
+        },
+        {
+            image: "/image/image_hinh12.png",
+            title: "Đồ Chơi",
+        },
+        {
+            image: "/image/image_hinh13.png",
+            title: "Chăm Sóc Thú Cưng",
+        },
+        {
+            image: "/image/image_hinh14.png",
+            title: "Dụng Cụ Và Thiết Bị Tiện Ích",
+        },
+        {
+            image: "/image/image_hinh15.png",
+            title: "Thời Trang Nữ",
+        },
+        {
+            image: "/image/image_hinh16.png",
+            title: "Mẹ & Bé",
+        },{
+            image: "/image/image_hinh17.png",
+            title: "Nhà Cửa & Đời Sống",
+        },
+        {
+            image: "/image/image_hinh18.png",
+            title: "Sắc Đẹp",
+        },
+        {
+            image: "/image/image_hinh19.png",
+            title: "Giày Dép Nữ",
+        },
+        {
+            image: "/image/image_hinh20.png",
+            title: "Túi Ví Nữ",
+        },
+        {
+            image: "/image/ịmage_hinh21.png",
+            title: "Phụ Kiện & Trang Sức Nữ",
+        },
+        {
+            image: "/image/image_hinh22.png",
+            title: "Bách Hoá Online",
+        },
+        {
+            image: "/image/image_hinh23.png",
+            title: "Nhà Sách Online",
+        },
+        {
+            image: "/image/image_hinh24.png",
+            title: "Giặt Giũ & Chăm Sóc Nhà Cửa",
+        },
+        {
+            image: "/image/image_hinh25.png",
+            title: "Voucher & Du Lịch",
+        },
+    ]
+}
+
+for (let item of products4.data) {
+    let card4 = document.createElement("div")
+    card4.classList.add("container-service")
+
+    let text40 = document.createElement("a")
+    text40.setAttribute("href", [""])
+    card4.appendChild(text40)
+
+    let text41 = document.createElement("div")
+    text41.classList.add("service-img")
+    text40.appendChild(text41)
+
+    let text42 = document.createElement("img")
+    text42.setAttribute("src", item["image"])
+    text41.appendChild(text42)
+
+    let text43 = document.createElement("div")
+    text43.classList.add("title-service")
+    text40.appendChild(text43)
+
+    let text44 = document.createElement("p")
+    text44.innerText = item["title"]
+    text43.appendChild(text44)
+
+    document.getElementById("products4").appendChild(card4)
+}

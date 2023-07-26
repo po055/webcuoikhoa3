@@ -176,8 +176,7 @@ body {
     font-weight: 600;
 }
 
-.input-box input:focus~label,
-.input:valid~label {
+.input-box input:focus~label,.input:valid~label {
     top : -5px;
 }
 

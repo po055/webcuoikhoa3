@@ -7,6 +7,8 @@ class Login{
     $formLogin
     $btnSubmit
     $txtGotoRegister
+    $textRemember
+    $lebelRemember
     // $txtIcon
     // $txtIcon2
     // $labelEmail
@@ -25,17 +27,36 @@ class Login{
 
         this.$txtEmail = document.createElement("input")
         this.$txtEmail.type = "email"
+        this.$txtEmail.classList.add("form-control")
+        this.$txtEmail.id = "floatingInput"
+        this.$txtEmail.placeholder="name@example.com"
 
         this.$labelEmail = document.createElement("label")
         this.$labelEmail.innerHTML = "Email"
+        this.$labelEmail.for = "floatingInput"
         this.$labelEmail.classList.add("label")
 
         this.$labelPassword = document.createElement("label")
         this.$labelPassword.innerHTML = "Mật khẩu"
+        this.$labelEmail.for = "floatingPassword"
         this.$labelPassword.classList.add("label")
 
         this.$txtPassword = document.createElement("input")
         this.$txtPassword.type = "password"
+        this.$txtPassword.classList.add("form-control")
+        this.$txtPassword.id = "floatingPassword"
+        this.$txtPassword.placeholder="Password"
+
+        this.$textRemember = document.createElement("input")
+        this.$textRemember.classList.add("form-check-input")
+        this.$textRemember.type = "checkbox"
+        this.$textRemember.value = "remember-me"
+        this.$textRemember.id = "flexCheckDefault"
+
+        this.$lebelRemember = document.createElement("label")
+        this.$lebelRemember.for = "flexCheckDefault"
+        this.$lebelRemember.classList.add("form-check-label")
+        this.$lebelRemember.innerHTML = "Remember me"
 
         this.$formLogin = document.createElement("form")
         this.$btnSubmit = document.createElement("button")
@@ -53,13 +74,13 @@ class Login{
         const flexContainer = document.createElement("div")
 
         const inputBox = document.createElement("div")
-        inputBox.classList.add("input-box")
+        inputBox.classList.add("form-floating")
 
         const inputBox2 = document.createElement("div")
-        inputBox2.classList.add("input-box")
+        inputBox2.classList.add("form-floating")
 
-        const inputBox3 = document.createElement("div")
-        inputBox3.classList.add("input-box")
+        const remember = document.createElement("div")
+        remember.classList.add("form-check","text-start","my-3")
 
         const logiRegister = document.createElement("p")
         logiRegister.classList.add("login-register")
@@ -72,6 +93,7 @@ class Login{
         flexContainer.appendChild(title)
         flexContainer.appendChild(inputBox)
         flexContainer.appendChild(inputBox2)
+        flexContainer.appendChild(remember)
         flexContainer.appendChild(this.$btnSubmit)
         flexContainer.appendChild(logiRegister)
 
@@ -82,6 +104,9 @@ class Login{
         inputBox2.appendChild(this.$txtIcon2)
         inputBox2.appendChild(this.$txtPassword)
         inputBox2.appendChild(this.$labelPassword)
+
+        remember.appendChild(this.$textRemember)
+        remember.appendChild(this.$lebelRemember)
         
         logiRegister.appendChild(this.$txtGotoRegister)
 

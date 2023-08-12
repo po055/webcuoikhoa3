@@ -36,34 +36,50 @@ class Register {
 
         this.$labelEmail = document.createElement("label")
         this.$labelEmail.innerHTML = "Email"
+        this.$labelEmail.for = "floatingInput"
         this.$labelEmail.classList.add("label")
 
         this.$labelPassword = document.createElement("label")
         this.$labelPassword.innerHTML = "Mật khẩu"
+        this.$labelEmail.for = "floatingPassword"
         this.$labelPassword.classList.add("label")
 
         this.$labelUserName = document.createElement("label")
         this.$labelUserName.innerHTML = "Tên đăng nhập"
+        this.$labelEmail.for = "floatingInput"
         this.$labelUserName.classList.add("label")
 
         this.$labelComfirmPass = document.createElement("label")
         this.$labelComfirmPass.innerHTML = "Xác nhận mật khẩu"
+        this.$labelEmail.for = "floatingPassword"
         this.$labelComfirmPass.classList.add("label")
 
         this.$txtEmail = document.createElement("input")
         this.$txtEmail.type = "email"
+        this.$txtEmail.classList.add("form-control")
+        this.$txtEmail.id = "floatingInput"
+        this.$txtEmail.placeholder="name@example.com"
         // this.$txtEmail.placeholder = "Enter your email ..."
 
         this.$txtUserName = document.createElement("input")
         this.$txtUserName.type = "text"
+        this.$txtUserName.classList.add("form-control")
+        this.$txtUserName.id = "floatingInput"
+        this.$txtUserName.placeholder="Tên đăng nhập"
         // this.$txtUserName.placeholder = "Tên đăng nhập"
 
         this.$txtPassword = document.createElement("input")
         this.$txtPassword.type = "password"
+        this.$txtPassword.classList.add("form-control")
+        this.$txtPassword.id = "floatingPassword"
+        this.$txtPassword.placeholder="Mật khẩu"
         // this.$txtPassword.placeholder = "Enter your pass"
 
         this.$txtConfirmPass = document.createElement("input")
         this.$txtConfirmPass.type = "password"
+        this.$txtConfirmPass.classList.add("form-control")
+        this.$txtConfirmPass.id = "floatingPassword"
+        this.$txtConfirmPass.placeholder="Xác nhận mật khẩu"
         // this.$txtConfirmPass.placeholder = "Confirm your password ..."
 
         this.$btnSubmit = document.createElement("button")
@@ -149,16 +165,16 @@ class Register {
         const flexContainer = document.createElement("div")
 
         const inputBox = document.createElement("div")
-        inputBox.classList.add("input-box")
+        inputBox.classList.add("form-floating")
 
         const inputBox2 = document.createElement("div")
-        inputBox2.classList.add("input-box")
+        inputBox2.classList.add("form-floating")
 
         const inputBox3 = document.createElement("div")
-        inputBox3.classList.add("input-box")
+        inputBox3.classList.add("form-floating")
 
         const inputBox4 = document.createElement("div")
-        inputBox4.classList.add("input-box")
+        inputBox4.classList.add("form-floating")
 
         const logiLogin = document.createElement("p")
         logiLogin.classList.add("login-register")

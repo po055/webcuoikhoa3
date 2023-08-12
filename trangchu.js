@@ -1715,3 +1715,364 @@ for (let item of products27.data) {
 
     document.getElementById("products27").appendChild(card27)
 }
+
+
+const products28= {
+    data: [
+        {
+            title: "Trung Tâm Trợ Giúp",
+        },
+        {
+            title: "Shopee Blog",
+        },
+        {
+            title: "Shopee Mall",
+        },
+        {
+            title: "Hướng Dẫn Mua Hàng",
+        },
+        {
+            title: "Hướng Dẫn Bán Hàng",
+        },
+        {
+            title: "Thanh Toán",
+        },
+        {
+            title: "Shopee Xu",
+        },
+        {
+            title: "Vận Chuyển",
+        },
+        {
+            title: "Trả Hàng & Hoàn Tiền",
+        },
+        {
+            title: "Chăm Sóc Khách Hàng",
+        },
+        {
+            title: "Chính Sách Bảo Hành",
+        },
+    ]
+}
+
+for (let item of products28.data) {
+    let card28 = document.createElement("ul")
+    card28.classList.add("text-63-5")
+
+    let text3 = document.createElement("li")
+    text3.classList.add("text-63-6")
+    card28.appendChild(text3)
+
+    let text1 = document.createElement("a")
+    text1.classList.add("text-63-7")
+    text3.appendChild(text1)
+
+    let text2 = document.createElement("span")
+    text2.innerText = item["title"]
+    text2.classList.add("text-63-8")
+    text3.appendChild(text2)
+
+    document.getElementById("products28").appendChild(card28)
+}
+
+
+const products29= {
+    data: [
+        {
+            title: "Giới Thiệu Về Shopee Việt Nam",
+        },
+        {
+            title: "Tuyển Dụng",
+        },
+        {
+            title: "Điều Khoản Shopee",
+        },
+        {
+            title: "Chính Sách Bảo Mật",
+        },
+        {
+            title: "Chính Hãng",
+        },
+        {
+            title: "Kênh Người Bán",
+        },
+        {
+            title: "Flash Sales",
+        },
+        {
+            title: "Chương Trình Tiếp Thị Liên Kết Shopee",
+        },
+        {
+            title: "Liên Hệ Với Truyền Thông",
+        },
+    ]
+}
+
+for (let item of products29.data) {
+    let card29 = document.createElement("ul")
+    card29.classList.add("text-63-5")
+
+    let text3 = document.createElement("li")
+    text3.classList.add("text-63-6")
+    card29.appendChild(text3)
+
+    let text1 = document.createElement("a")
+    text1.classList.add("text-63-7")
+    text3.appendChild(text1)
+
+    let text2 = document.createElement("span")
+    text2.innerText = item["title"]
+    text2.classList.add("text-63-8")
+    text3.appendChild(text2)
+
+    document.getElementById("products29").appendChild(card29)
+}
+
+const products30= {
+    data: [
+        {
+            image: "/image/thanhtoan_hinh1.png",
+        },
+        {
+            image: "/image/thanhtoan_hinh2.png",
+        },
+        {
+            image: "/image/thanhtoan_hinh3.png",
+        },
+        {
+            image: "/image/thanhtoan_hinh4.png",
+        },
+        {
+            image: "/image/thanhtoan_hinh5.png",
+        },
+        {
+            image: "/image/thanhtoan_hinh6.png",
+        },
+        {
+            image: "/image/thanhtoan_hinh7.png",
+        },
+        {
+            image: "/image/thanhtoan_hinh8.png",
+        },
+    ]
+}
+
+for (let item of products30.data) {
+
+    let card30 = document.createElement("li")
+    card30.classList.add("text-63-10")
+
+    let text1 = document.createElement("div")
+    text1.classList.add("text-63-11")
+    card30.appendChild(text1)
+
+
+    let text2 = document.createElement("img")
+    text2.setAttribute("src", item["image"])
+    text1.appendChild(text2)
+
+    document.getElementById("products30").appendChild(card30)
+}
+
+const products31 = {
+    data: [
+        {
+            image: "/image/dvthanhtoan_hinh1.png",
+        },
+        {
+            image: "/image/dvthanhtoan_hinh2.png",
+        },
+        {
+            image: "/image/dvthanhtoan_hinh3.jpeg",
+        },
+        {
+            image: "/image/dvthanhtoan_hinh4.png",
+        },
+        {
+            image: "/image/dvthanhtoan_hinh5.png",
+        },
+        {
+            image: "/image/dvthanhtoan_hinh6.png",
+        },
+        {
+            image: "/image/dvthanhtoan_hinh7.png",
+        },
+        {
+            image: "/image/dvthanhtoan_hinh8.png",
+        },
+        {
+            image: "/image/dvthanhtoan_hinh9.png",
+        },
+        {
+            image: "/image/dvthanhtoan_hinh10.png",
+        },
+        {
+            image: "/image/dvthanhtoan_hinh11.png",
+        },
+    ]
+}
+
+for (let item of products31.data) {
+
+    let card31 = document.createElement("li")
+    card31.classList.add("text-63-10")
+
+    let text1 = document.createElement("div")
+    text1.classList.add("text-63-11")
+    card31.appendChild(text1)
+
+
+    let text2 = document.createElement("img")
+    text2.setAttribute("src", item["image"])
+    text1.appendChild(text2)
+
+    document.getElementById("products31").appendChild(card31)
+}
+
+const products32= {
+    data: [
+        {
+            title: "Facebook",
+            name: "logo-facebook",
+        },
+        {
+            title: "Instagram",
+            name: "logo-instagram",
+        },
+        {
+            title: "LinkedIn",
+            name: "logo-linkedin",
+        },
+    ]
+}
+
+for (let item of products32.data) {
+
+    let card32 = document.createElement("li")
+    card32.classList.add("text-63-6")
+
+    let text1 = document.createElement("a")
+    text1.classList.add("text-63-14")
+    card32.appendChild(text1)
+
+    let text3 = document.createElement("ion-icon")
+    text3.setAttribute("name", item["name"])
+    text3.classList.add("ionicon")
+    text1.appendChild(text3)
+
+    let text2 = document.createElement("span")
+    text2.innerText = item["title"]
+    text2.classList.add("text-63-13")
+    text1.appendChild(text2)
+
+    document.getElementById("products32").appendChild(card32)
+}
+
+const products33 = {
+    data: [
+        {
+            image: "/image/hinhapp_hinh1.png",
+        },
+        {
+            image: "/image/hinhapp_hinh2.png",
+        },
+        {
+            image: "/image/hinhapp_hinh3.png",
+        },
+    ]
+}
+
+for (let item of products33.data) {
+
+    let card33 = document.createElement("a")
+    card33.classList.add("text-63-17")
+
+    let text2 = document.createElement("img")
+    text2.setAttribute("src", item["image"])
+    card33.appendChild(text2)
+
+    document.getElementById("products33").appendChild(card33)
+}
+
+const products34= {
+    data: [
+        {
+            title: "Singapore",
+        },
+        {
+            title: "Indonesia",
+        },
+        {
+            title: "Đài Loan",
+        },
+        {
+            title: "Thái Lan",
+        },
+        {
+            title: "Malaysia",
+        },
+        {
+            title: "Việt Nam",
+        },
+        {
+            title: "Philippines",
+        },
+        {
+            title: "Brazil",
+        },
+        {
+            title: "México",
+        },
+        {
+            title: "Colombia",
+        },
+        {
+            title: "Chile",
+        },
+    ]
+}
+
+for (let item of products34.data) {
+    let card34 = document.createElement("div")
+    card34.classList.add("text-64-4")
+
+    let text1 = document.createElement("a")
+    text1.innerText = item["title"]
+    text1.classList.add("text-64-5")
+    card34.appendChild(text1)
+
+
+    document.getElementById("products34").appendChild(card34)
+}
+
+const products35= {
+    data: [
+        {
+            title: "Chính sách bảo mật",
+        },
+        {
+            title: "Quy chế hoạt động",
+        },
+        {
+            title: "Chính sách vận chuyển",
+        },
+        {
+            title: "CHÍNH SÁCH TRẢ HÀNG VÀ HOÀN TIỀN",
+        },
+    ]
+}
+
+for (let item of products35.data) {
+    let card35 = document.createElement("div")
+    card35.classList.add("text-65-3")
+
+    let text1 = document.createElement("a")
+    text1.classList.add("text-65-4")
+    card35.appendChild(text1)
+
+    let text2 = document.createElement("span")
+    text2.innerText = item["title"]
+    text1.appendChild(text2)
+
+    document.getElementById("products35").appendChild(card35)
+}

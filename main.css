@@ -117,7 +117,7 @@ body {
 }
 
 .wrapper {
-    width: 250px;
+    width: 270px;
     padding: 40px;
 }
 
@@ -136,11 +136,11 @@ body {
     text-align: center;
 }
 
-.input-box {
+.form-floating {
     position: relative;
     width: 100%;
     height: 45px;
-    border-bottom: 2px solid #162938;
+    border-top: 0;
     margin: 30px 0;
 
     .icon{
@@ -151,6 +151,10 @@ body {
         line-height: 57px;
     }
 
+}
+
+.form-check-label {
+    padding-left: 10px;
 }
 
 .input-box label {
@@ -183,7 +187,6 @@ body {
 .btn {
     width: 100%;
     height: 45px;
-    background: #162938;
     border: none;
     outline: none;
     border-radius: 6px;
@@ -191,6 +194,10 @@ body {
     font-size: 1em;
     color: #fff;
     font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #c6c6c6;
 }
 
 .login-register {
@@ -211,3 +218,26 @@ body {
 .login-register a:hover {
     text-decoration: underline; 
 }
+
+
+.form-signin {
+    max-width: 330px;
+    padding: 1rem;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  

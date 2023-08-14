@@ -179,3 +179,12 @@ amountElement.addEventListener("input", () => {
     render(amount);
 });
 
+document.querySelectorAll(".text-2-49").forEach((item) => {
+    item.addEventListener("click", () => {
+        document.querySelectorAll(".text-2-50").forEach((item) => {
+            item.hidden = true;
+        });
+        item.querySelector(".text-2-50").hidden = false;
+    });
+});
+

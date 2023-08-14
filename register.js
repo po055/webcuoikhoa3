@@ -76,28 +76,28 @@ class Register {
         this.$txtEmail.type = "email"
         this.$txtEmail.classList.add("form-control")
         this.$txtEmail.id = "floatingInput"
-        this.$txtEmail.placeholder="name@example.com"
+        this.$txtEmail.placeholder = "name@example.com"
         // this.$txtEmail.placeholder = "Enter your email ..."
 
         this.$txtUserName = document.createElement("input")
         this.$txtUserName.type = "text"
         this.$txtUserName.classList.add("form-control")
         this.$txtUserName.id = "floatingInput"
-        this.$txtUserName.placeholder="Tên đăng nhập"
+        this.$txtUserName.placeholder = "Tên đăng nhập"
         // this.$txtUserName.placeholder = "Tên đăng nhập"
 
         this.$txtPassword = document.createElement("input")
         this.$txtPassword.type = "password"
         this.$txtPassword.classList.add("form-control")
         this.$txtPassword.id = "floatingPassword"
-        this.$txtPassword.placeholder="Mật khẩu"
+        this.$txtPassword.placeholder = "Mật khẩu"
         // this.$txtPassword.placeholder = "Enter your pass"
 
         this.$txtConfirmPass = document.createElement("input")
         this.$txtConfirmPass.type = "password"
         this.$txtConfirmPass.classList.add("form-control")
         this.$txtConfirmPass.id = "floatingPassword"
-        this.$txtConfirmPass.placeholder="Xác nhận mật khẩu"
+        this.$txtConfirmPass.placeholder = "Xác nhận mật khẩu"
         // this.$txtConfirmPass.placeholder = "Confirm your password ..."
 
         this.$btnSubmit = document.createElement("button")
@@ -157,6 +157,7 @@ class Register {
                 // Signed in
                 const user = userCredential.user;
                 console.log(user)
+                alert("Đăng ký thành công!")
                 window.location.href = "trangchu.html"
             })
             .catch((error) => {
@@ -164,7 +165,7 @@ class Register {
                 var errorMessage = error.message;
                 console.log("Error:", errorCode, errorMessage);
                 alert(errorMessage)
-              });
+            });
     }
 
     setError = (content) => {

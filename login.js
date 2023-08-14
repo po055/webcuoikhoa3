@@ -153,9 +153,10 @@ class Login{
             // ...
         })
         .catch((error) => {
-            const errorCode = error.code;
-            const errorMessage = error.message;
-            alert("Đăng nhập thất bại")
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            console.log("Error:", errorCode, errorMessage);
+            alert(errorMessage)
         });
     }
 }

@@ -1,6 +1,24 @@
 import app from "./main.js"
 import Login from "./login.js"
 
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js";
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+    apiKey: "AIzaSyAj6AKYAtWt5UXICtOXvIxvIfwKjOki398",
+    authDomain: "web5-e27f9.firebaseapp.com",
+    projectId: "web5-e27f9",
+    storageBucket: "web5-e27f9.appspot.com",
+    messagingSenderId: "374872063802",
+    appId: "1:374872063802:web:403f732258bf73875d5a03"
+};
+
+// Initialize Firebase
+const firebaseApp = initializeApp(firebaseConfig);
+const auth = getAuth(firebaseApp);
+
 class Register {
     $formRegister
     $txtEmail
@@ -134,13 +152,12 @@ class Register {
         }
 
         let myArr = [email, userName, pass, confirmPass]
-        firebase
-            .auth()
-            .createUserWithEmailAndPassword(email, pass)
+        createUserWithEmailAndPassword(auth, email, pass)
             .then((userCredential) => {
-                firebase.auth().currentUser.updateProfile({displayName: userName})
-                firebase.auth().currentUser.sendEmailVerification()
-                window.location.href = "index.html"
+                // Signed in
+                const user = userCredential.user;
+                console.log(user)
+                window.location.href = "trangchu.html"
             })
             .catch((error) => {
                 var errorCode = error.code;

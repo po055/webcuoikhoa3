@@ -1,6 +1,24 @@
 import app from "./main.js"
 import Register from "./register.js"
 
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-auth.js";
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+    apiKey: "AIzaSyAj6AKYAtWt5UXICtOXvIxvIfwKjOki398",
+    authDomain: "web5-e27f9.firebaseapp.com",
+    projectId: "web5-e27f9",
+    storageBucket: "web5-e27f9.appspot.com",
+    messagingSenderId: "374872063802",
+    appId: "1:374872063802:web:403f732258bf73875d5a03"
+};
+
+// Initialize Firebase
+const firebaseApp = initializeApp(firebaseConfig);
+const auth = getAuth(firebaseApp);
+
 class Login{
     $txtEmail
     $txtPassword
@@ -125,6 +143,20 @@ class Login{
         e.preventDefault()
         const email = this.$txtEmail.value
         const password = this.$txtPassword.value
+
+        signInWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+            // Signed in 
+            const user = userCredential.user;
+            alert("Đăng nhập thành công")
+            window.location.href = "trangchu.html"
+            // ...
+        })
+        .catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            alert("Đăng nhập thất bại")
+        });
     }
 }
 

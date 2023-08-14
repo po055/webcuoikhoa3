@@ -81,33 +81,101 @@ for (let item of products2.data) {
 const products3 = {
     data: [
         {
-            title: "Shopee",
+            title: "Sóc ghi",
         },
         {
-            title: "Giày Dép Nam",
+            title: "Sóc  nâu",
         },
         {
-            title: "Xăng-đan và Dép",
+            title: "Bánh bao hồng",
         },
         {
-            title: "Dép Đi Trong Nhà",
+            title: "Bánh bao trắng",
+        },
+        {
+            title: "Bánh bao đen",
         },
     ]
 }
 
-for (let item of products2.data) {
-    let card2 = document.createElement("div")
-    card2.classList.add("text-1-1")
-    
-    let text1 = document.createElement("a")
-    text1.innerText = item["title"]
-    text1.classList.add("text-1-2")
-    card2.appendChild(text1)
+for (let item of products3.data) {
+    let card3 = document.createElement("button")
+    card3.innerText = item["title"]
+    card3.classList.add("text-2-49")
+
+    let text3 = document.createElement("div")
+    text3.classList.add("text-2-50")
+    text3.hidden = true
+    card3.appendChild(text3)
 
     let text2 = document.createElement("ion-icon")
-    text2.name = "chevron-forward-outline"
-    text2.classList.add("text-1-3")
-    card2.appendChild(text2)
+    text2.name = "checkmark-outline"
+    text2.classList.add("text-2-51")
+    text3.appendChild(text2)
 
-    document.getElementById("products2").appendChild(card2)
+    document.getElementById("products3").appendChild(card3)
 }
+
+const products4 = {
+    data: [
+        {
+            title: "36",
+        },
+        {
+            title: "37",
+        },
+        {
+            title: "38",
+        },
+        {
+            title: "39",
+        },
+        {
+            title: "40",
+        },
+    ]
+}
+
+for (let item of products4.data) {
+    let card4 = document.createElement("button")
+    card4.innerText = item["title"]
+    card4.classList.add("text-2-49")
+
+    let text3 = document.createElement("div")
+    text3.classList.add("text-2-50")
+    text3.hidden = true
+    card4.appendChild(text3)
+
+    let text2 = document.createElement("ion-icon")
+    text2.name = "checkmark-outline"
+    text2.classList.add("text-2-51")
+    text3.appendChild(text2)
+
+    document.getElementById("products4").appendChild(card4)
+}
+
+let amountElement = document.getElementById("amount");
+let amount = amountElement.value;
+
+let render = (amount) => {
+    amountElement.value = amount
+}
+
+let handlePlus = () => {
+    amount++
+    render(amount);
+}
+
+let handleMinus = () => {
+    if(amount >1)
+    amount--;
+    render(amount);
+}
+
+amountElement.addEventListener("input", () => {
+    amount = amountElement.value;
+    amount = parseInt(amount);
+    amount = (isNaN(amount)||amount==0)?1:amount;
+    render(amount);
+});
+

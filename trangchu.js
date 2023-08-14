@@ -38,7 +38,7 @@ for (let item of products.data) {
     let text10 = document.createElement("a")
     text10.setAttribute("href", item["hi"])
     text10.innerText = item["title"]
-    text10.classList.add("text12")
+    text10.classList.add("text122")
     card.appendChild(text10)
 
     document.getElementById("products").appendChild(card)
@@ -283,7 +283,7 @@ for (let item of products5.data) {
 const products6 = {
     data: [
         {
-            
+
             image: "/image/sanpham_hinh_1.jpeg",
             image2: "/image/sanpham_hinhdacbiet.png",
             title: "Dép lông con sóc siêu cute xả khokho85k-85k sập giá",

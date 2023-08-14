@@ -26,7 +26,7 @@ class Login{
     $btnSubmit
     $txtGotoRegister
     $textRemember
-    $lebelRemember
+    // $lebelRemember
     // $txtIcon
     // $txtIcon2
     // $labelEmail

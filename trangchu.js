@@ -44,45 +44,6 @@ for (let item of products.data) {
     document.getElementById("products").appendChild(card)
 }
 
-// const products2 = {
-//     data: [
-//         {
-//             image: "/image/quangcao_hinh1.jpeg",
-//         },
-//         {
-//             image: "/image/quangcao_hinh9.jpeg",
-//         },
-//         {
-//             image: "/image/quangcao_hinh3.png",
-//         },
-//         {
-//             image: "/image/quangcao_hinh4.png",
-//         },
-//         {
-//             image: "/image/quangcao_hinh5.jpeg",
-//         },
-//         {
-//             image: "/image/quangcao_hinh6.jpeg",
-//         },
-//         {
-//             image: "/image/quangcao_hinh7.png",
-//         },
-//         {
-//             image: "/image/quangcao_hinh8.jpeg",
-//         },
-//     ]
-// }
-
-// for (let item of products2.data) {
-//     let card2 = document.createElement("div")
-//     card2.classList.add("slider-item")
-    
-//     let image = document.createElement("img")
-//     image.setAttribute("src", item["image"])
-//     card2.appendChild(image)
-
-//     document.getElementById("products2").appendChild(card2)
-// }
 
 const products3 = {
     data: [
@@ -322,6 +283,7 @@ for (let item of products5.data) {
 const products6 = {
     data: [
         {
+            
             image: "/image/sanpham_hinh_1.jpeg",
             image2: "/image/sanpham_hinhdacbiet.png",
             title: "Dép lông con sóc siêu cute xả khokho85k-85k sập giá",
@@ -528,6 +490,15 @@ for (let item of products6.data) {
     let text11 = document.createElement("div")
     text11.classList.add("container-prodcuts2")
     text40.appendChild(text11)
+
+    let text30 = document.createElement("div")
+    text30.classList.add("text-container")
+    text40.appendChild(text30)
+
+    let text31 = document.createElement("span")
+    text31.classList.add("text-container-span")
+    text31.innerHTML = "Tìm sản phẩm tương tự"
+    text30.appendChild(text31)
 
     let text41 = document.createElement("div")
     text41.classList.add("products-img")

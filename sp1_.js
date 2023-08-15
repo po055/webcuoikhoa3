@@ -139,10 +139,10 @@ const products4 = {
 for (let item of products4.data) {
     let card4 = document.createElement("button")
     card4.innerText = item["title"]
-    card4.classList.add("text-2-49")
+    card4.classList.add("text-2-68")
 
     let text3 = document.createElement("div")
-    text3.classList.add("text-2-50")
+    text3.classList.add("text-2-69")
     text3.hidden = true
     card4.appendChild(text3)
 
@@ -153,6 +153,24 @@ for (let item of products4.data) {
 
     document.getElementById("products4").appendChild(card4)
 }
+
+document.querySelectorAll(".text-2-49").forEach((item) => {
+    item.addEventListener("click", () => {
+        document.querySelectorAll(".text-2-50").forEach((item) => {
+            item.hidden = true
+        })
+        item.querySelector(".text-2-50").hidden = false
+    })
+})
+
+document.querySelectorAll(".text-2-68").forEach((item) => {
+    item.addEventListener("click", () => {
+        document.querySelectorAll(".text-2-69").forEach((item) => {
+            item.hidden = true
+        })
+        item.querySelector(".text-2-69").hidden = false
+    })
+})
 
 const products5 = {
     data: [

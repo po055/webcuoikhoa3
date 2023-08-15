@@ -994,6 +994,54 @@ header {
     color: rgba(0,0,0,.54);
 }
 
+.text-2-68 {
+    overflow: visible;
+    cursor: pointer;
+    min-width: 5rem;
+    min-height: 2.125rem;
+    box-sizing: border-box;
+    padding: 0.25rem 0.75rem;
+    margin: 0 8px 8px 0;
+    color: rgba(0,0,0,.8);
+    text-align: left;
+    border-radius: 2px;
+    border: 1px solid rgba(0,0,0,.09);
+    position: relative;
+    background: #fff;
+    outline: 0;
+    word-break: break-word;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-2-68:hover {
+    color: #ee4d2d;
+    color: var(--brand-primary-color,#ee4d2d);
+    border-color: #ee4d2d;
+    border-color: var(--brand-primary-color,#ee4d2d);
+}
+
+.text-2-69 {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.text-2-69::before {
+    border: 0.9375rem solid transparent;
+    border-bottom: 0.9375rem solid var(--brand-primary-color,#ee4d2d);
+    content: "";
+    position: absolute;
+    right: -0.9375rem;
+    bottom: 0;
+}
+
+
 .text-3-1 {
     min-height: 40rem;
     display: flex;

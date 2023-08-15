@@ -64,7 +64,7 @@ const products2 = {
 for (let item of products2.data) {
     let card2 = document.createElement("div")
     card2.classList.add("text-1-1")
-    
+
     let text1 = document.createElement("a")
     text1.innerText = item["title"]
     text1.classList.add("text-1-2")
@@ -167,15 +167,15 @@ let handlePlus = () => {
 }
 
 let handleMinus = () => {
-    if(amount >1)
-    amount--;
+    if (amount > 1)
+        amount--;
     render(amount);
 }
 
 amountElement.addEventListener("input", () => {
     amount = amountElement.value;
     amount = parseInt(amount);
-    amount = (isNaN(amount)||amount==0)?1:amount;
+    amount = (isNaN(amount) || amount == 0) ? 1 : amount;
     render(amount);
 });
 

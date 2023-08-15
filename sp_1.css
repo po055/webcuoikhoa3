@@ -864,7 +864,7 @@ header {
     text-align: center;
     cursor: text;
     border-radius: 0;
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
     outline: none;
     line-height: 1;
     letter-spacing: 0;

@@ -2,7 +2,6 @@ const products = {
     data: [
         {
             title: "Áo Thun Local Brand",
-            hi: "index.html",
         },
         {
             title: "Điện Thoại 1k",
@@ -289,7 +288,8 @@ const products6 = {
             title: "Dép lông con sóc siêu cute xả khokho85k-85k sập giá",
             text: "đ",
             text2: "72.000",
-            text3: "Đã bán 9,8k"
+            text3: "Đã bán 9,8k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_2.jpeg",
@@ -297,7 +297,8 @@ const products6 = {
             title: "Tai nghe bluetooth 5.0 True Wireless Amoi F9 Pro bản quốc tế cao cấp cảm biến vân tay , kiêm sạc dự phòng",
             text: "đ",
             text2: "85.000",
-            text3: "Đã bán 6k"
+            text3: "Đã bán 6k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_3.jpeg",
@@ -305,7 +306,8 @@ const products6 = {
             title: "COMBO 2 áo thun tay lỡ form rộng sadtagram tee và eighteen studio",
             text: "đ",
             text2: "62.000",
-            text3: "Đã bán 947"
+            text3: "Đã bán 947",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_4.jpeg",
@@ -313,7 +315,8 @@ const products6 = {
             title: "COMBO siêu rẻ bánh tráng phơi sương muối tép hành NHỎ (Tặng bơ)",
             text: "đ",
             text2: "38.000",
-            text3: "Đã bán 25,3k"
+            text3: "Đã bán 25,3k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_5.jpeg",
@@ -321,7 +324,8 @@ const products6 = {
             title: "Vỏ bảo vệ hộp tai nghe bằng silicon dẻo cao cấp cho AirPods Pro 2nd Airpods pro / Airpod 3 / Airpod 1/2（Not Airpods）",
             text: "đ",
             text2: "10.000",
-            text3: "Đã bán 2,4k"
+            text3: "Đã bán 2,4k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_6.jpeg",
@@ -329,7 +333,8 @@ const products6 = {
             title: "Túi xách nữ đeo chéo thời trang đi chơi giá rẻ phong cách Hàn Quốc Ms01",
             text: "đ",
             text2: "66.000",
-            text3: "Đã bán 2,9k"
+            text3: "Đã bán 2,9k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_7.jpeg",
@@ -337,7 +342,8 @@ const products6 = {
             title: "Mũ lưỡi trai nam nữ form mềm đa dạng họa tiết thêu chữ, Nón kết phong cách hàn quốc M08",
             text: "đ",
             text2: "27.000",
-            text3: "Đã bán 12k"
+            text3: "Đã bán 12k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_8.jpeg",
@@ -345,7 +351,8 @@ const products6 = {
             title: "Loa bluetooth mini không dây,nghe nhạc,giá rẻ,công nghệ blutooth 5.0 BINTECH",
             text: "đ",
             text2: "39.000",
-            text3: "Đã bán 9,2k"
+            text3: "Đã bán 9,2k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_9.jpeg",
@@ -353,7 +360,8 @@ const products6 = {
             title: "Dép Quai Ngang Đế Bánh Mì Tăng Chiều Cao Họa Tiết Quả Trám",
             text: "đ",
             text2: "69.500",
-            text3: "Đã bán 2,3k"
+            text3: "Đã bán 2,3k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_10.jpeg",
@@ -361,7 +369,8 @@ const products6 = {
             title: "Thùng 200 chiếc khẩu trang 5d Thịnh Phát 3 lớp kháng khuẩn [SHIP 2H HOẢ TỐC HCM]",
             text: "đ",
             text2: "17.000",
-            text3: "Đã bán 23,4k"
+            text3: "Đã bán 23,4k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_11.jpeg",
@@ -369,7 +378,8 @@ const products6 = {
             title: "Máy sấy tóc công suất 3500w làm tóc nhanh khô có 2 chế độ nóng lanh kèm ống tạo kiểu -- Hàng Loại 1--QDShop",
             text: "đ",
             text2: "52.000",
-            text3: "Đã bán 6,8k"
+            text3: "Đã bán 6,8k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_12.jpeg",
@@ -377,7 +387,8 @@ const products6 = {
             title: "[HOT HOT] Điện thoại gập Oppo Find N2 HÀNG NHẬP KHẨU/bảo hành 12 tháng/1 đổi 1trong 7 ngày",
             text: "đ",
             text2: "3.290.000",
-            text3: "Đã bán 26"
+            text3: "Đã bán 26",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_13.jpeg",
@@ -385,7 +396,8 @@ const products6 = {
             title: "Áo Thun Form Fit FEARLESSLY. Áo Baby Tee Phối Tay Sọc Chất Cotton Co Giãn",
             text: "đ",
             text2: "65.000",
-            text3: "Đã bán 6,9k"
+            text3: "Đã bán 6,9k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_14.jpeg",
@@ -393,7 +405,8 @@ const products6 = {
             title: "Tai Nghe Bluetooth M10 Pro Tai Nghe Không M10 Pro Phiên Bản Nâng Cấp Pin Trâu, Nút Cảm Ứng Tự Động Kết Nối - BINTECH",
             text: "đ",
             text2: "89.000",
-            text3: "Đã bán 5,8k"
+            text3: "Đã bán 5,8k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_15.jpeg",
@@ -401,7 +414,8 @@ const products6 = {
             title: "Dép quai ngang chữ S nam nữ chữ nổi chống nước,chống hôi chân",
             text: "đ",
             text2: "61.000",
-            text3: "Đã bán 3,9k"
+            text3: "Đã bán 3,9k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_16.jpeg",
@@ -409,7 +423,8 @@ const products6 = {
             title: "Áo Khoác Bomber Siêu Dày Bo Viền Siêu Đẹp  - Áo Bomber Chất Gió 2 Lớp Form Unisex Nam Nữ Siêu Đẹp (ảnh thật)",
             text: "đ",
             text2: "63.000",
-            text3: "Đã bán 2,1k"
+            text3: "Đã bán 2,1k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_17.jpeg",
@@ -417,7 +432,8 @@ const products6 = {
             title: "Túi xách nữ đeo chéo thời trang đi chơi giá rẻ phong cách Hàn Quốc Ms01",
             text: "đ",
             text2: "66.000",
-            text3: "Đã bán 2,9k"
+            text3: "Đã bán 2,9k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_18.jpeg",
@@ -425,7 +441,8 @@ const products6 = {
             title: "[HÀNG LOẠI 1] DÉP KHỦNG LONG CỔ DÀI SIÊU DỄ THƯƠNG CHẤT LIỆU EVA ĐÀN HỒI ÊM CHÂN_RUBISHOES",
             text: "đ",
             text2: "89.000",
-            text3: "Đã bán 983"
+            text3: "Đã bán 983",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_19.jpeg",
@@ -433,7 +450,8 @@ const products6 = {
             title: "Bộ ga gối 3 món poly coton 1m6x2m và 1m8x2m hàng loại 1",
             text: "đ",
             text2: "11.000",
-            text3: "Đã bán 88,4k"
+            text3: "Đã bán 88,4k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_20.jpeg",
@@ -441,7 +459,8 @@ const products6 = {
             title: "Bộ ga gối 3 món poly coton 1m6x2m và 1m8x2m hàng loại 1",
             text: "đ",
             text2: "47.000",
-            text3: "Đã bán 5,5k"
+            text3: "Đã bán 5,5k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_21.jpeg",
@@ -449,7 +468,8 @@ const products6 = {
             title: "[Fom nhỏ] Dép quai ngang,Dép lê HM da quai dán đế 3cm cực hot-Dép nữ cao cấp 2023",
             text: "đ",
             text2: "49.000",
-            text3: "Đã bán 1,9k"
+            text3: "Đã bán 1,9k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_22.jpeg",
@@ -457,7 +477,8 @@ const products6 = {
             title: "Kệ sách để bàn bằng gỗ đa năng Béo shop màu trắng tháo rời lắp ghép dễ dàng tiện lợi",
             text: "đ",
             text2: "65.000",
-            text3: "Đã bán 11,7k"
+            text3: "Đã bán 11,7k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_23.jpeg",
@@ -465,7 +486,8 @@ const products6 = {
             title: "Kìm Bóp Tập Cơ Tay, Dụng Cụ Tập Cơ Tay Kìm R Xịn 5-60KG, Găng Tay Tập Thể Thao",
             text: "đ",
             text2: "22.000",
-            text3: "Đã bán 6,8k"
+            text3: "Đã bán 6,8k",
+            text22: "sp_1.html",
         },
         {
             image: "/image/sanpham_hinh_24.jpeg",
@@ -473,7 +495,8 @@ const products6 = {
             title: "Tai nghe không dây Bluetooth TWS AMoi F9 Pro - Chống nước IP67 - Pin 2000maH - Dùng 600 tiếng",
             text: "đ",
             text2: "79.000",
-            text3: "Đã bán 9,3k"
+            text3: "Đã bán 9,3k",
+            text22: "sp_1.html",
         },
     ]
 }
@@ -484,7 +507,7 @@ for (let item of products6.data) {
     card6.classList.add("container-products")
 
     let text40 = document.createElement("a")
-    text40.setAttribute("href", [""])
+    text40.setAttribute("href", item["text22"])
     card6.appendChild(text40)
 
     let text11 = document.createElement("div")

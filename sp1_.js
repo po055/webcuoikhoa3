@@ -166,7 +166,7 @@ document.querySelectorAll(".text-2-49").forEach((item) => {
 document.querySelectorAll(".text-2-68").forEach((item) => {
     item.addEventListener("click", () => {
         document.querySelectorAll(".text-2-69").forEach((item) => {
-            item.hidden = true
+            item.hidden = true 
         })
         item.querySelector(".text-2-69").hidden = false
     })
